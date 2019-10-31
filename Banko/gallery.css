@@ -1,0 +1,250 @@
+body {
+    margin: 0px !important;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif !important;
+    outline: none;
+    text-decoration: none !important;
+}
+
+div.Photo {
+    background: url('https://images.wallpaperscraft.ru/image/les_derevya_tuman_110131_1920x1080.jpg') no-repeat center 40%;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+div.Container {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+}
+
+div.Name_of_page {
+    font-size: 35px;
+    color: #f2f3f4;
+    margin-left: 10px;
+}
+
+.Introduction {
+    font-size: 23px;
+    color: #9ca8bc;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.Main {
+    margin: 10px 10px;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.Gallery {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+div.Clear {
+    clear: both;
+}
+
+
+.Skills {
+    font-size: 23px;
+    color: #9ca8bc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    background: url('images/mount.jpeg') no-repeat 60% 40%;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+div.VK_INST {
+    text-align: center;
+}
+
+a.vk {
+    color: #95a6c1;
+    border: none;
+    outline: none;
+    width: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+a.inst {
+    color: #95a6c1;
+    border: none;
+    outline: none;
+    width: 50px;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+div.ComeBack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+a.linksStyle {
+    text-decoration: none !important;
+    color: #5b616b !important;
+    border: solid 3px #86a0b6;
+    padding: 10px;
+    transition: transform 0.5s
+}
+
+a.linksStyle:hover {
+    transform: scale(1.05);
+}
+
+a.vk:hover {
+    color: white;
+}
+
+a.inst:hover {
+    color: white;
+}
+
+div.carousel {
+    width: 70% !important;
+    margin: 0 auto !important;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+div.Name_of_section {
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color: #9ca8bc;
+    border-bottom: solid #9ca8bc 3px;
+}
+
+div.Form {
+    margin-top: 60px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-size: 23px !important;
+    width: 67%;
+}
+
+.form-control {
+    font-size: 23px !important;
+    height: 60px !important;
+}
+
+button.Contact {
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.btn-secondary {
+    color: #9ca8bc !important;
+    background-color: #ffffff !important;
+    border-color: #9ca8bc !important;
+}
+
+.btn {
+    border-radius: 0 !important;
+    font-size: 23px !important;
+    border-width: 3px !important;
+    transition: transform 0.5s;
+}
+
+button {
+    transition: transform 0.5s !important;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+div.header-container {
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+div.Details {
+    text-align: left;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media all and (max-width: 992px) {
+    div.Container {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    div.Main {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Name_of_page {
+        text-align: center;
+    }
+
+    .Introduction {
+        font-size: 16px;
+    }
+
+    div.header-container {
+        flex-direction: column;
+    }
+
+    div.Form {
+        width: 100%;
+    }
+
+    span {
+        text-align: center;
+        display: block;
+    }
+
+    div.Details {
+        margin-top: 60px;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    div.carousel {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+}

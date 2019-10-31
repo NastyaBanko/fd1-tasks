@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <title>???</title>
+    <style>
+        svg{
+            width:600px; height:600px
+        }
+    </style>
+</head>
+<body>
+
+<svg xmlns='http://www.w3.org/2000/svg'>
+
+    <defs>
+        <linearGradient id='LG1' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color=#2a543c />
+            <stop offset='50%' stop-color=#1b8749 />
+            <stop offset='100%' stop-color=#09e265 stop-opacity=0.5 />
+        </linearGradient>
+
+        <linearGradient id='LG2' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color=#efe6e6 />
+            <stop offset='50%' stop-color=#a89e9e />
+            <stop offset='100%' stop-color=#564e4e />
+        </linearGradient>
+
+        <linearGradient id='LG3' x1='20%' y1='20%' x2='40%' y2='40%' spreadMethod=repeat>
+            <stop offset='0%' stop-color=#db7474 />
+            <stop offset='100%' stop-color=#e29393 />
+        </linearGradient>
+
+    </defs>
+
+    <!------------------------------------BOW-------------------------------------------------->
+
+    <polygon points='300,405 330,490 320,500' stroke='#8e4545' fill='url(#LG3)'/>
+    <polygon points='300,405 270,490 280,500' stroke='#8e4545' fill='url(#LG3)'/>
+    <polygon points='300,405 420,380 400,450' stroke='#8e4545' fill='url(#LG3)'/>
+    <polygon points='300,405 180,380 200,450' stroke='#8e4545' fill='url(#LG3)'/>
+    <circle cx=300 cy=405 r=40 stroke='#8e4545' fill='url(#LG3)'/>
+
+    <!------------------------------------HEAD-------------------------------------------------->
+
+    <circle cx=300 cy=250 r=150 stroke='#878b91' fill='#878b91'/>
+
+    <!------------------------------------EARS-------------------------------------------------->
+
+    <polygon points='150,250 150,50 280,105' stroke='#878b91' fill='#878b91'/>
+    <polygon points='450,250 450,50 320,105' stroke='#878b91' fill='#878b91'/>
+    <polygon points='425,180 430,80 340,115' stroke='#a89e9e' fill='url(#LG2)'/>
+    <polygon points='175,180 170,80 260,115' stroke='#a89e9e' fill='url(#LG2)'/>
+
+    <!------------------------------------EYES-------------------------------------------------->
+
+    <circle cx=225 cy=250 r=40 stroke='#09632c'  fill='url(#LG1)'/>
+    <circle cx=375 cy=250 r=40 stroke='#09632c' fill='url(#LG1)'/>
+    <circle cx=225 cy=250 r=31 stroke='#1c231f'  fill='#1c231f'/>
+    <circle cx=375 cy=250 r=31 stroke='#1c231f' fill='#1c231f'/>
+    <circle cx=385 cy=240 r=15 stroke='#ffffff' fill='#ffffff'/>
+    <circle cx=235 cy=240 r=15 stroke='#ffffff'  fill='#ffffff'/>
+
+    <!------------------------------------EYEBROW-------------------------------------------------->
+
+    <line x1=260 y1=120 x2=240 y2=50 stroke='#535654'/>
+    <line x1=265 y1=120 x2=250 y2=50 stroke='#535654'/>
+    <line x1=340 y1=120 x2=350 y2=50 stroke='#535654'/>
+    <line x1=345 y1=120 x2=360 y2=50 stroke='#535654'/>
+
+    <!------------------------------------NOSE-------------------------------------------------->
+
+    <polygon points='270,290 330,290 300,320' stroke='#8e4545' fill='#db7474'/>
+    <circle cx=285 cy=305 r=5 stroke='#878b91' fill='#878b91'/>
+    <circle cx=315 cy=305 r=5 stroke='#878b91' fill='#878b91'/>
+
+    <!------------------------------------CHEEK-------------------------------------------------->
+
+    <ellipse cx=255 cy=329 rx=45 ry=25 stroke='#d1caca' fill='#d1caca'/>
+    <ellipse cx=345 cy=329 rx=45 ry=25 stroke='#d1caca' fill='#d1caca'/>
+
+    <!------------------------------------WHISKERS-------------------------------------------------->
+
+    <line x1=255 y1=329 x2=185 y2=310 stroke='#efe6e6'/>
+    <line x1=345 y1=329 x2=415 y2=310 stroke='#efe6e6'/>
+    <line x1=255 y1=329 x2=185 y2=320 stroke='#efe6e6'/>
+    <line x1=345 y1=329 x2=415 y2=320 stroke='#efe6e6'/>
+
+</svg>
+
+</body>
+</html>

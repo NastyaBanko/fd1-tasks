@@ -1,0 +1,710 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-family: 'Raleway', sans-serif !important;
+    text-decoration: none !important;
+}
+
+header {
+    background: url('images/header1.png') no-repeat center 65%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    padding-bottom: 50px;
+}
+
+div.Container {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+div.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+div.Logo {
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    float: left
+}
+
+ul:first-of-type {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 23px;
+    float: right;
+    position: relative;
+    right: 22px;
+    top: 22px
+}
+
+li:not(:nth-of-type(4)) {
+    display: inline-block;
+    margin-right: 10px
+}
+
+li:nth-of-type(4) {
+    display: inline-block;
+}
+
+li:hover {
+    border-bottom: solid white 3px;
+}
+
+div.Bootstrap {
+    float: right;
+    background-color: transparent !important;
+}
+
+ul li a {
+    color: white !important;
+    padding: 0 10px !important;
+}
+
+button.navbar-toggler {
+    outline: none !important;
+}
+
+div.Clear {
+    clear: both;
+}
+
+div.Title {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    margin: 170px auto 0 auto;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -50px !important;
+}
+
+svg.Symbol {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+circle {
+    fill: none;
+    stroke: white;
+    stroke-width: 3px
+}
+
+line {
+    stroke: white;
+    stroke-width: 3
+}
+
+rect {
+    stroke: white;
+    stroke-width: 3
+}
+
+main {
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+div.ALL {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+div.Name_of_page {
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color: #9ca8bc;
+    border-bottom: solid #9ca8bc 3px;
+    margin-top: 60px;
+}
+
+div.Face {
+    background: url('images/Nastya.jpg') no-repeat center center;
+    border: solid #9ca8bc 1px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-size: auto 350px;
+    float: left;
+    clear: both;
+    margin: 20px 10px 0px 10px;
+    transition: transform 0.5s
+}
+
+div.Face:hover {
+    transform: scale(1.05);
+}
+
+div.Biography {
+    font-size: 23px;
+    color: #9ca8bc;
+    padding-top: 60px;
+}
+
+div.Button {
+    font-size: 23px;
+    color: #9ca8bc;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    transition: transform 0.5s
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a.linksStyle {
+    text-decoration: none !important;
+    color: #9ca8bc !important;
+    border: solid 3px #9ca8bc;
+    padding: 10px;
+}
+
+div.Button:hover {
+    transform: scale(1.05);
+}
+
+div.Photo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+div.Photo11 {
+    margin: 2px;
+    background: url('images/Photo11.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Photo22 {
+    margin: 2px;
+    background: url('images/Photo22.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    flex-basis: 34%;
+    transition: transform 0.5s;
+}
+
+div.Photo33 {
+    margin: 2px;
+    background: url('images/Photo33.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Photo44 {
+    margin: 2px;
+    background: url('images/Photo44.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Photo55 {
+    margin: 2px;
+    background: url('images/Photo55.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    flex-basis: 34%;
+    transition: transform 0.5s;
+}
+
+div.Photo66 {
+    margin: 2px;
+    background: url('images/Photo66.jpeg') no-repeat 20% center;
+    border: solid grey 1px;
+    background-size: auto 350px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Photo div:hover {
+    transform: scale(1.3);
+}
+
+div.Modal {
+    margin-top: 32px;
+    margin-left: 25px;
+    font-size: 23px !important;
+}
+
+.btn-secondary {
+    color: #9ca8bc !important;
+    background-color: #ffffff !important;
+    border-color: #9ca8bc !important;
+}
+
+.btn {
+    border-radius: 0 !important;
+    font-size: 23px !important;
+    border-width: 3px !important;
+    transition: transform 0.5s;
+}
+
+button {
+    transition: transform 0.5s !important;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+div.Art1 {
+    margin: 2px;
+    background: url('images/Art1.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 320px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Art2 {
+    margin: 2px;
+    background: url('images/Art2.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 300px;
+    height: 300px;
+    flex-basis: 34%;
+    transition: transform 0.5s;
+}
+
+div.Art3 {
+    margin: 2px;
+    background: url('images/Art3.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 300px;
+    height: 300px;
+    flex-basis: 33%;
+    transition: transform 0.5s;
+}
+
+div.Art41 {
+    margin: 2px;
+    background: url('images/Art41.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 320px;
+    height: 300px;
+    flex-basis: 240px;
+    transition: transform 0.5s;
+}
+
+div.Art5 {
+    margin: 2px;
+    background: url('images/Art5.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 300px;
+    height: 300px;
+    flex-basis: 230px;
+    transition: transform 0.5s;
+}
+
+div.Art6 {
+    margin: 2px;
+    background: url('images/Art6.jpeg') no-repeat center center;
+    border: solid grey 1px;
+    background-size: auto 300px;
+    height: 300px;
+    flex-basis: 240px;
+    transition: transform 0.5s;
+}
+
+div.Form {
+    margin-top: 60px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-size: 23px !important;
+}
+
+.form-control {
+    font-size: 23px !important;
+    height: 60px !important;
+}
+
+button.Contact {
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+footer {
+    background: url('images/mount.jpeg') no-repeat 60% 40%;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+div.VK_INST {
+    text-align: center;
+}
+
+a.vk {
+    color: #95a6c1;
+    border: none;
+    outline: none;
+    width: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+a.inst {
+    color: #95a6c1;
+    border: none;
+    outline: none;
+    width: 50px;
+    text-decoration: none;
+    transition-duration: 2s;
+}
+
+div.ComeBack {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a.linksStyle2 {
+    text-decoration: none !important;
+    color: #5b616b !important;
+    border: solid 3px #86a0b6;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+
+.Skills {
+    font-size: 23px;
+    color: #9ca8bc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a.linksStyle2:hover {
+    transform: scale(1.05);
+}
+
+a.vk:hover {
+    color: white;
+}
+
+a.inst:hover {
+    color: white;
+}
+
+@media all and (max-width: 992px) {
+    div.Container {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    div.Logo {
+        font-size: 26px !important;
+    }
+
+    div.header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.Title {
+        font-size: 60px !important;
+    }
+
+    p {
+        font-size: 20px !important;
+        margin-top: 0 !important;
+    }
+
+    ul:first-of-type {
+        font-size: 15px !important;
+    }
+
+    div.Face {
+        float: none;
+        margin: 10px auto;
+    }
+
+    div.Biography {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    div.Button {
+        float: none;
+        display: block;
+    }
+
+    div.Photo {
+        flex-direction: column;
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+
+    div.Photo div {
+        background-size: 450px auto;
+    }
+
+    div.Photo22 {
+        background-size: 530px auto !important;
+    }
+
+    div.Photo66 {
+        background-size: 510px auto !important;
+    }
+
+    div.Photo + div.header-container {
+        flex-direction: column !important;
+    }
+
+    div.Modal {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    div.Art2 {
+        background-size: 451px auto !important;
+    }
+
+    div.Art3 {
+        background-size: 456px auto !important;
+    }
+
+    div.Name_of_page:first-of-type {
+        margin-top: 60px !important;
+    }
+
+    div.Ph {
+        margin-top: 60px !important;
+    }
+
+    div.Name_of_page {
+        margin-top: 120px;
+    }
+
+    div.Art41 {
+        background-size: auto 250px !important;
+    }
+
+    div.Art5 {
+        background-size: auto 250px !important;
+    }
+
+    div.Art6 {
+        background-size: auto 250px !important;
+    }
+
+    div.Vertical {
+        margin-left: 389px !important;
+        margin-right: 389px !important;
+    }
+}
+
+.fa-bars:before {
+    content: "none!important";
+}
+
+@media all and (max-width: 956px) {
+    div.Vertical {
+        margin-left: 369px !important;
+        margin-right: 372px !important;
+    }
+
+    @media all and (max-width: 873px) {
+        div.Photo {
+            flex-direction: column;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        div.Vertical {
+            margin-left: 325px !important;
+            margin-right: 325px !important;
+        }
+    }
+
+    @media all and (max-width: 835px) {
+        div.Vertical {
+            margin-left: 315px !important;
+            margin-right: 315px !important;
+        }
+
+        @media all and (max-width: 820px) {
+            div.Vertical {
+                margin-left: 304px !important;
+                margin-right: 304px !important;
+            }
+
+            @media all and (max-width: 790px) {
+                div.Vertical {
+                    margin-left: 289px !important;
+                    margin-right: 289px !important;
+                }
+
+                @media all and (max-width: 761px) {
+                    div.Photo {
+                        flex-direction: column;
+                        margin-left: 150px;
+                        margin-right: 150px;
+                    }
+
+                    div.Vertical {
+                        margin-left: 274px !important;
+                        margin-right: 274px !important;
+                    }
+                }
+
+                @media all and (max-width: 697px) {
+                    div.Vertical {
+                        margin-left: 244px !important;
+                        margin-right: 244px !important;
+                    }
+
+                    @media all and (max-width: 625px) {
+                        div.Photo {
+                            flex-direction: column;
+                            margin-left: 100px;
+                            margin-right: 100px;
+                        }
+
+                        div.Vertical {
+                            margin-left: 204px !important;
+                            margin-right: 204px !important;
+                        }
+                    }
+
+                    @media all and (max-width: 590px) {
+                        div.Vertical {
+                            margin-left: 189px !important;
+                            margin-right: 189px !important;
+                        }
+
+                        @media all and (max-width: 563px) {
+                            div.Vertical {
+                                margin-left: 174px !important;
+                                margin-right: 174px !important;
+                            }
+
+                            @media all and (max-width: 532px) {
+                                div.Photo {
+                                    flex-direction: column;
+                                    margin-left: 50px;
+                                    margin-right: 50px;
+                                }
+
+                                div.Photo div:hover {
+                                    transform: scale(1.1)
+                                }
+
+                                div.Vertical {
+                                    margin-left: 159px !important;
+                                    margin-right: 159px !important;
+                                }
+                            }
+
+                            @media all and (max-width: 515px) {
+                                div.Vertical {
+                                    margin-left: 149px !important;
+                                    margin-right: 149px !important;
+                                }
+
+                                @media all and (max-width: 470px) {
+                                    div.Vertical {
+                                        margin-left: 129px !important;
+                                        margin-right: 129px !important;
+                                    }
+
+                                    @media all and (max-width: 430px) {
+                                        div.Vertical {
+                                            margin-left: 109px !important;
+                                            margin-right: 109px !important;
+                                        }
+
+                                        @media all and (max-width: 393px) {
+                                            div.Photo {
+                                                flex-direction: column;
+                                                margin-left: 10px;
+                                                margin-right: 10px;
+                                            }
+
+                                            div.Photo div:hover {
+                                                transform: scale(1.05);
+                                            }
+                                        }
+
+                                        @media all and (max-width: 400px) {
+                                            div.Logo {
+                                                font-size: 22px !important;
+                                            }
+
+                                            div.header-container {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: space-between;
+                                            }
+
+                                            div.Title {
+                                                font-size: 53px !important;
+                                            }
+
+                                            p {
+                                                font-size: 15px !important;
+                                            }
+
+                                            div.Vertical {
+                                                margin-left: 99px !important;
+                                                margin-right: 99px !important;
+                                            }
+                                        }
+
+
+                                        @media all and (max-width: 368px) {
+                                            div.Vertical {
+                                                margin-left: 78px !important;
+                                                margin-right: 78px !important;
+                                            }
